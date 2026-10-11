@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "type": "web",
+  "root": ".",
+  "install": "npm ci",
+  "build": "npm run build",
+  "output": "dist"
+}
