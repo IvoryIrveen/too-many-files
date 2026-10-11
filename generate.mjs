@@ -3,8 +3,8 @@
 // a Build is accepted. Run with `npm run build`.
 import {mkdir, rm, writeFile} from "node:fs/promises";
 
-const FILE_COUNT = Number(process.env.FILE_COUNT ?? 10050);
-const BIG_FILE_MB = Number(process.env.BIG_FILE_MB ?? 0);
+const FILE_COUNT = Number(process.env.FILE_COUNT ?? 0);
+const BIG_FILE_MB = Number(process.env.BIG_FILE_MB ?? 70);
 
 await rm("dist", {recursive: true, force: true});
 await mkdir("dist", {recursive: true});
