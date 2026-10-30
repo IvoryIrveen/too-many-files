@@ -16,3 +16,5 @@ A refused output fails the Build at "Check the output". Today Strux shows the ge
 not the limit that was crossed (a known gap in the Strux plan).
 
 Check locally: `npm run build` and count the files in `dist/`.
+
+Speed check (2026-10-30): the same 9,951 files, a new commit so Strux builds them again.
