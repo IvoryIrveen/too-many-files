@@ -20,3 +20,4 @@ Check locally: `npm run build` and count the files in `dist/`.
 Speed check (2026-10-30): the same 9,951 files, a new commit so Strux builds them again.
 Speed check 2 (2026-10-30): batched storage.
 Speed check 3 (2026-10-30): timing.
+Speed check 4 (2026-10-30): Durable Objects.
